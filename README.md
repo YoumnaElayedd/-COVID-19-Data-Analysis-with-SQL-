@@ -48,7 +48,7 @@ select location, date, total_cases, population,
 from project..CovidDeaths$
 where location like '%states%'
 order by 1, 2;
-
+```
 How to Use
 Clone the repository.
 Import the dataset into your SQL Server.
